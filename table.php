@@ -39,7 +39,7 @@
 	
 	//SQL sentence
 	
-	$stmt = $mysql->prepare("SELECT id, recipient, message, created FROM messages_sample");
+	$stmt = $mysql->prepare("SELECT id, recipient, message, created FROM messages_sample WHERE deleted is NULL ORDER BY created DESC LIMIT 10");
 	
 	//if error in sentense
 	
