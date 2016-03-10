@@ -58,7 +58,8 @@
 
 <div class="row">
 	<div class="col-md-3" "col-sm-6">
-	<input class="btn btn-success btn-block" type="submit" value="Save data"></input>
+	<input class="btn btn-success hidden-xs" type="submit" value="Save data 1"></input>
+	<input class="btn btn-success btn-block visible-xs-block" type="submit" value="Save data 2"></input>
 	 </div>
 </div>	
 
